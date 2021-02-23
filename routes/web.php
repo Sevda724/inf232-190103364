@@ -31,3 +31,6 @@ Route::get('/post2/{id}/{age?}', function ($id,$age=14) {
 Route::get('/route-example', function () {
     return "I love web programming!";
 });
+Route::get('/route-example', function () {
+    return "web programming!";
+});

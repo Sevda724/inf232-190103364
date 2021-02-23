@@ -34,3 +34,6 @@ Route::get('/route-example', function () {
 Route::get('/route-example', function () {
     return "web programming!";
 });
+Route::get('/route-example', function () {
+    return " programming!";
+});

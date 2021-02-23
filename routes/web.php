@@ -20,3 +20,14 @@ Route::get('/', function () {
 Route::get('/lab4', function(){
 	return view('labs');
 });
+Route::get('/post/{id}', function ($id) {
+    return "Your id is".$id;
+});
+
+Route::get('/post2/{id}/{age?}', function ($id,$age=14) {
+    return "Your id is ".$id."Your age is ".$age;
+});
+
+Route::get('/route-example', function () {
+    return "I love web programming!";
+});
